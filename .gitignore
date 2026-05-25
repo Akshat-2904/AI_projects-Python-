@@ -1,0 +1,102 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual Environment
+venv/
+.env/
+.envrc/
+
+# Environment Variables / Secrets
+.env
+*.env
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+.history/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Build / Temp
+# =========================
+build/
+dist/
+temp/
+tmp/
+.cache/
+
+# =========================
+# AI / Model Files
+# =========================
+models/
+weights/
+checkpoints/
+*.bin
+*.pt
+*.pth
+*.onnx
+*.gguf
+
+# Ollama
+ollama_models/
+ollama_cache/
+
+# =========================
+# Vector DB / Embeddings
+# =========================
+chroma_db/
+faiss_index/
+embeddings/
+vector_store/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Testing / Coverage
+# =========================
+.coverage
+htmlcov/
+.pytest_cache/
+
+# =========================
+# CMake / C++
+# =========================
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+Makefile
+
+# =========================
+# Executables
+# =========================
+*.exe
+*.out
+*.dll
+
+# =========================
+# Runtime Memory / Sessions
+# =========================
+memory/
+sessions/
+conversation_logs/
